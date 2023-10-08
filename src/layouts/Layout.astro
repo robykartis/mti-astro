@@ -45,7 +45,9 @@ const { title, description, image = "assets/logo/logo.png" } = Astro.props;
     <slot />
     <!--Footer-->
     <Footer />
-    <script defer src="assets/template.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"
+    ></script>
     <script>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       if (
